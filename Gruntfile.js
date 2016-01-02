@@ -4,17 +4,6 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     less: {
-      dev: {
-        options: {
-          sourceMap: true,
-          dumpLineNumbers: 'comments',
-          relativeUrls: true,
-        },
-        files: {
-          'css/bootstrap.css': 'bower_components/components-bootstrap/less/bootstrap.less',
-          'css/main.css': 'less/main.less',
-        },
-      },
       production: {
         options: {
           cleancss: true,
@@ -22,7 +11,7 @@ module.exports = function(grunt) {
           relativeUrls: true,
         },
         files: {
-          'css/bootstrap.css': 'bower_components/components-bootstrap/less/bootstrap.less',
+          'css/bootstrap.css': 'bower_components/bootstrap/less/bootstrap.less',
         },
       },
     },
@@ -36,7 +25,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['less/main.less', 'less/mixins.less', 'css/bootstrap.css', 'bower_components/components-bootstrap/less/bootstrap.less'],
-        tasks: ['cssmin', 'less'],
+        tasks: ['less', 'cssmin'],
         options: {
           spawn: false,
         },

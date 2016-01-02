@@ -12,6 +12,7 @@ module.exports = function(grunt) {
         },
         files: {
           'css/bootstrap.css': 'bower_components/bootstrap/less/bootstrap.less',
+          'css/main.css': 'less/main.less',
         },
       },
     },

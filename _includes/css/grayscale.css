@@ -141,7 +141,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/img/intro-bg9.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -389,7 +389,7 @@ body {
 .new-grid1 p {
   font-size: 1em;
   line-height: 1.8em;
-  margin: 0.5em 0 0;
+  margin: 0em 0 0;
   color: #777;
 }
 .new-grid1 h4 a {
@@ -446,7 +446,7 @@ img.zoom-img:hover {
 .clearfix { display: block; }
 
 .news {
-  padding: 4em 0;
+  padding: 0 0;
   text-align: center;
   background: #eee;
 }

@@ -268,6 +268,10 @@ a:focus {
     -o-background-size: cover;
 }
 
+.portfolio > img {
+  padding:0;
+}
+
 #map {
     width: 100%;
     height: 200px;
@@ -368,4 +372,86 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.new-grid {
+  padding: 0;
+}
+.new-grid1 h5 {
+  font-size: 1.5em;
+}
+.new-grid1 h4 {
+  font-size: 1.5em;
+  color: #222;
+  text-transform: capitalize;
+  padding: 1em 0;
+}
+.new-grid1 p {
+  font-size: 1em;
+  line-height: 1.8em;
+  margin: 0.5em 0 0;
+  color: #777;
+}
+.new-grid1 h4 a {
+    text-decoration: none;
+    color: #222;
+}
+.new-grid1 h4 a:hover{
+    color: #994868;
+}
+.new-grid1 {
+    padding: 2.8em 2em;
+    background: #fff;
+}
+.new-grids {
+  margin-top: 3em;
+}
+a.mask {
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+}
+img.zoom-img {
+  -webkit-transform: scale(1, 1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1, 1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
+img.zoom-img:hover {
+  -webkit-transform: scale(1.1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 750ms;
+  -moz-transform: scale(1.1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 750ms;
+  overflow: hidden;
+}
+.new-grid img {
+    width: 100%;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.news {
+  padding: 4em 0;
+  text-align: center;
+  background: #eee;
+}
+.news h3{
+ font-size: 3.5em;
+    font-family: 'DancingScript-Regular';
+    color: #3b3772;
 }

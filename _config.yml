@@ -1,0 +1,26 @@
+# Site settings
+title: Amr Elsekilly's Portfolio
+email: amr.e.dev@gmail.com
+url: http://amrsekilly.com
+description: "Amr Mohamed Elsayed Elsekilly's portfolio, personal website, blog, contact, web developer, front end web developer, full stack web developer"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Amr Sekilly
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/amrsekilly
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+  - title: facebook
+    url: https://www.facebook.com/amrsekilly
+
+# Build settings
+markdown: kramdown
+permalink: pretty

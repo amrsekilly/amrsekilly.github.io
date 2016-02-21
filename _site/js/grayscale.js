@@ -182,7 +182,3 @@ function init() {
         icon: image
     });
 }
-
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});

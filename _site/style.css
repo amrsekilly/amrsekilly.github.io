@@ -463,7 +463,7 @@ img.zoom-img:hover {
 
 /* make buttons more user friendly */
 
-.btn {
+.new-grid1 > .btn {
   margin-right: 24px;
   margin-left: 24px;
 }

@@ -460,3 +460,31 @@ img.zoom-img:hover {
     font-family: 'DancingScript-Regular';
     color: #3b3772;
 }
+<<<<<<< HEAD
+=======
+
+/* make buttons more user friendly */
+
+.new-grid1 > .btn {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+
+
+/*
+  style the modals
+*/
+.modal-dialog {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  line-height: 2.5em;
+  font-size: 1.2em;
+}
+
+.modal-body > ul {
+   list-style-type: none;
+}
+>>>>>>> gh-pages

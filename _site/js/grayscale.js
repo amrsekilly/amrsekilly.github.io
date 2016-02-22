@@ -182,3 +182,10 @@ function init() {
         icon: image
     });
 }
+<<<<<<< HEAD
+=======
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+>>>>>>> gh-pages

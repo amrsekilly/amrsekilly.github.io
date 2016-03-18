@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/amrsekilly
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://amrsekilly.com
+  * I am amrsekilly (https://keybase.io/amrsekilly) on keybase.
+  * I have a public key with fingerprint 1525 EC64 2677 01BB 66D4  2224 639C C51D B2DC E6C4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010186e4084d7d17b710222eb571813032a39e69e63f04f52be6ea486e3a265bc8ba0a",
+            "fingerprint": "1525ec64267701bb66d42224639cc51db2dce6c4",
+            "host": "keybase.io",
+            "key_id": "639cc51db2dce6c4",
+            "kid": "010186e4084d7d17b710222eb571813032a39e69e63f04f52be6ea486e3a265bc8ba0a",
+            "uid": "98f4dec7b5187d37698a381b9fce0619",
+            "username": "amrsekilly"
+        },
+        "service": {
+            "hostname": "amrsekilly.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458303250,
+    "expire_in": 157680000,
+    "prev": "6880682f518a35ac926d96a422aa94466f2875726c9370b0b91339fe408af97b",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJfSBRBHD5TU48iEake7KgtLNJs/87untgf6kmtCE0lhHNmd/bc1Ntr
+b7VMhR5UMNE6+wdSDxUZleGfeggiNdMgLUhF80E4wgexs6IQyTqqWamnemwYGOY3
+3/fN7/tmhtZGO5xRwRLVFUrPCkaNPmuvdBSEPyfVUMhQqyl3DVWGVxZcruKA5SnT
+VcpN0QzNSADztMSrosqISGRolmUxEkRGYjiaYyEnY0Amp9G8JrAIAwx5QuEgCwSk
+SAjSkEqnNN3nxabf1H0WkWUEVsAK4FkgijSDEAAqT2R5wMmKIjAqYlUFA4UnxFIj
+YDNIcwgGcIZukBrZeFba+wf+P/dduSInSxqvYkVEAiOJKicCWYKcxCBZUzANGNkG
+BrDpgxWYoGGFGcBlenl5NVWXTpF6la5gO1rby1+YDMWoIHy/aViGYpSTs1LL8rtt
+qlXtt7GnMPL8VvEg3aeSKAmhCpsB3fBRboYgFUu3ZRlekGxzAp1O4dN+3cQe3UYI
+IpBoMuxrcJUdnCTRQGI14gdyAlRkFqgygOQRIJR5HgCNlURBZIEicyKNaCQzHCdr
+dqBQk0VE2b5O+gzKzZM2oZdIBnSvD1qVJqbqBgeKYxxRTsfq2FX2F3M4ExL/fLzL
+y/GO1uTksZKHuWdSQ7WeLiEHTgUfZOZxXb7FnReP1853fJXevuh59Wi8IdS7zh9u
+OeqejBmL/pgSM1PtCm85vDQ9f88aaO6fWLPc+iZr+Fx3xNXnupHrjeTvr+kr6fi+
+OBIauhAaCT6fuTRR3ByfnD2rLIbV+/kp9a8HNx4o3Lq9IBEeXNqb11Rw9Wi3on+J
+m3tc5L7bc/3DviNxOdwO5/Cn5o4Ms3191I/Atw276kd3v+zob0y9xqdlbkp7f6dg
+IlwX3dnZOxe9B07eKuqJPdGUQP2sR6nefu12IZo929AWCSYcm7q5ra0TZodc4y2j
+5xsXYqf5oXedC08OXdn81EqK/ALBfETx
+=pXaK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/amrsekilly
+
+==================================================================
+

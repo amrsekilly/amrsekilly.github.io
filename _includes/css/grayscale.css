@@ -486,3 +486,21 @@ img.zoom-img:hover {
   border-bottom: 1px solid #fff;
   padding-bottom: 3px;
 }
+
+.modal-body > a {
+  color: black;
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+}
+
+li > a {
+  color: black;
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+}
+
+.col-md-6 > p > a {
+  color: black;
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+}

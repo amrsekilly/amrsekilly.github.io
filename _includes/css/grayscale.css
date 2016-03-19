@@ -480,3 +480,9 @@ img.zoom-img:hover {
 .modal-body > ul {
    list-style-type: none;
 }
+
+
+.about-text > a {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+}

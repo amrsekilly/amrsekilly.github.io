@@ -53,7 +53,7 @@ p {
 }
 
 a {
-    color: #219ab3;
+    color: #ffffff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -308,17 +308,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
+    border: 1px solid #ffffff;
+    color: #ffffff;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 1px solid #ffffff;
     outline: 0;
     color: #000000;
-    background-color: #219ab3;
+    background-color: #ffffff;
 }
 
 ul.banner-social-buttons {
@@ -484,4 +484,10 @@ img.zoom-img:hover {
 
 .modal-body > ul {
    list-style-type: none;
+}
+
+
+.about-text > a {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
 }

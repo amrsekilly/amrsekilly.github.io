@@ -493,11 +493,12 @@ img.zoom-img:hover {
   padding-bottom: 3px;
 }
 
-li > a {
+.col-md-6 > li > a {
   color: black;
   border-bottom: 1px solid #000;
   padding-bottom: 3px;
 }
+
 
 .col-md-6 > p > a {
   color: black;

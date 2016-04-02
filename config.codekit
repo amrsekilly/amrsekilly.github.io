@@ -422,6 +422,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/img\/12923311_10153855169445067_3367148949406291342_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166870,
+		"inputAbbreviatedPath": "\/_site\/img\/12923311_10153855169445067_3367148949406291342_n.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/12923311_10153855169445067_3367148949406291342_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/amr.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -451,6 +462,17 @@
 		"initialSize": 212332,
 		"inputAbbreviatedPath": "\/_site\/img\/aquaphoton.net1.png",
 		"outputAbbreviatedPath": "\/_site\/img\/aquaphoton.net1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 272742,
+		"inputAbbreviatedPath": "\/_site\/img\/bg.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1231,13 +1253,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/bg.png": {
-		"fileType": 32768,
+	"\/img\/bg.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.04711e+06,
-		"inputAbbreviatedPath": "\/img\/bg.png",
-		"outputAbbreviatedPath": "\/img\/bg.png",
+		"initialSize": 272742,
+		"inputAbbreviatedPath": "\/img\/bg.jpg",
+		"outputAbbreviatedPath": "\/img\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1304,28 +1326,6 @@
 		"initialSize": 10516,
 		"inputAbbreviatedPath": "\/img\/india.png",
 		"outputAbbreviatedPath": "\/img\/india.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/intro-bg2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 88321,
-		"inputAbbreviatedPath": "\/img\/intro-bg2.jpg",
-		"outputAbbreviatedPath": "\/img\/intro-bg2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/intro-bg9.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.72201e+06,
-		"inputAbbreviatedPath": "\/img\/intro-bg9.jpg",
-		"outputAbbreviatedPath": "\/img\/intro-bg9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

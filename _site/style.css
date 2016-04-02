@@ -510,3 +510,7 @@ img.zoom-img:hover {
   border-bottom: 1px solid #000;
   padding-bottom: 3px;
 }
+
+.network-name {
+  font-size: 0.8em;
+}

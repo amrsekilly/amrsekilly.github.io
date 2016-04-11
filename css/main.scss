@@ -543,10 +543,13 @@ img.zoom-img:hover {
    list-style-type: none;
 }
 
-
-.about-text > a {
-  border-bottom: 1px solid #fff;
-  padding-bottom: 3px;
+// about section
+.about-text {
+  text-align: justify;
+  a {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+  }
 }
 
 .modal-body > a {

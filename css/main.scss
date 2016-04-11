@@ -169,8 +169,44 @@ a:focus {
     bottom: 0;
     right: 0;
     background-image: url(/img/pattern.png);
-    opacity: 0.1;
+    -webkit-animation-name: op;
+    -moz-animation-name: op;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    opacity: 0;
     background-repeat: repeat;
+}
+
+@-webkit-keyframes op {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes op {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 .intro .intro-body {

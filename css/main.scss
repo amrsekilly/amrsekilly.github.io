@@ -407,11 +407,13 @@ ul.banner-social-buttons li {
 footer {
   background-color: fade-in(white, 0.9);
   color: black;
+  margin-top: 30px;
+  p {
+      margin: 0;
+      padding: 0;
+  }
 }
 
-footer p {
-    margin: 0;
-}
 
 ::-moz-selection {
     text-shadow: none;

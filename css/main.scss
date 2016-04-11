@@ -405,7 +405,8 @@ ul.banner-social-buttons li {
 }
 
 footer {
-    padding: 50px 0;
+  background-color: fade-in(white, 0.9);
+  color: black;
 }
 
 footer p {
@@ -573,4 +574,8 @@ img.zoom-img:hover {
 
 .network-name {
   font-size: 0.8em;
+}
+
+.leading-icon {
+  padding-bottom: 20px;
 }

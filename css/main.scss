@@ -471,3 +471,10 @@ img::-moz-selection {
 .leading-icon {
   padding-bottom: 20px;
 }
+
+
+hr {
+  width: 40%;
+  border: 2px solid;
+  border-color: fade-out(white, 0.8);
+}

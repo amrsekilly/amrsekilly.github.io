@@ -26,5 +26,8 @@ social:
     url: https://www.facebook.com/amrsekilly
 
 # Build settings
+# Sass
+sass:
+    style: compressed
 markdown: kramdown
 permalink: pretty

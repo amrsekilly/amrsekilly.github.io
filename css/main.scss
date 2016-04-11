@@ -443,6 +443,12 @@ img::-moz-selection {
     border-bottom: 1px solid #fff;
     padding-bottom: 3px;
   }
+  &:first-letter {
+    font-size: 250%;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-bottom: 0px;
+  }
 }
 
 .modal-body > a {

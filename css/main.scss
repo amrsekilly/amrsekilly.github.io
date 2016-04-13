@@ -315,22 +315,13 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
+        padding-top: 70px;
     }
 }
 

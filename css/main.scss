@@ -170,45 +170,45 @@ a:focus {
     bottom: 0;
     right: 0;
     background-image: url(/img/pattern.png);
-    -webkit-animation-name: op;
-    -moz-animation-name: op;
-    -webkit-animation-duration: 0.01s;
-    -moz-animation-duration: 0.01s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    opacity: 0;
+    // -webkit-animation-name: op;
+    // -moz-animation-name: op;
+    // -webkit-animation-duration: 0.01s;
+    // -moz-animation-duration: 0.01s;
+    // -webkit-animation-iteration-count: infinite;
+    // -moz-animation-iteration-count: infinite;
+    // -webkit-animation-timing-function: linear;
+    // -moz-animation-timing-function: linear;
+    opacity: 0.05;
     background-repeat: repeat;
 }
 
-@-webkit-keyframes op {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0.1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@-moz-keyframes op {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0.1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
+// @-webkit-keyframes op {
+//   0% {
+//     opacity: 0;
+//   }
+//
+//   50% {
+//     opacity: 0.1;
+//   }
+//
+//   100% {
+//     opacity: 0;
+//   }
+// }
+//
+// @-moz-keyframes op {
+//   0% {
+//     opacity: 0;
+//   }
+//
+//   50% {
+//     opacity: 0.1;
+//   }
+//
+//   100% {
+//     opacity: 0;
+//   }
+// }
 
 .intro .intro-body {
     display: table-cell;
@@ -316,12 +316,18 @@ a:focus {
 
 .content-section {
     padding-top: 70px;
+    hr {
+      margin-top: 70px;
+    }
 }
 
 
 @media(min-width:767px) {
     .content-section {
         padding-top: 70px;
+        hr {
+          margin-top: 70px;
+        }
     }
 }
 

@@ -172,43 +172,44 @@ a:focus {
     background-image: url(/img/pattern.png);
     // -webkit-animation-name: op;
     // -moz-animation-name: op;
-    // -webkit-animation-duration: 0.01s;
-    // -moz-animation-duration: 0.01s;
+    // -webkit-animation-duration: 0.0001s;
+    // -moz-animation-duration: 0.0001s;
     // -webkit-animation-iteration-count: infinite;
     // -moz-animation-iteration-count: infinite;
     // -webkit-animation-timing-function: linear;
     // -moz-animation-timing-function: linear;
-    opacity: 0.05;
+    opacity: 0.04;
     background-repeat: repeat;
+    // display: none;
 }
 
-// @-webkit-keyframes op {
-//   0% {
-//     opacity: 0;
-//   }
-//
-//   50% {
-//     opacity: 0.1;
-//   }
-//
-//   100% {
-//     opacity: 0;
-//   }
-// }
-//
-// @-moz-keyframes op {
-//   0% {
-//     opacity: 0;
-//   }
-//
-//   50% {
-//     opacity: 0.1;
-//   }
-//
-//   100% {
-//     opacity: 0;
-//   }
-// }
+@-webkit-keyframes op {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes op {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 
 .intro .intro-body {
     display: table-cell;

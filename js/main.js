@@ -46,9 +46,4 @@ $(document).ready(function() {
     var s = d.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(po, s);
   })(document);
-
-  $('.portfolio-item-text').readmore({
-  speed: 75
-});
-
 });

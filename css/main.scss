@@ -508,3 +508,34 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
+
+.portfolio-row {
+  .portfolio-item {
+    .portfolio-item-image {
+      max-height: 500px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 50px;
+    }
+    .portfolio-item-text {
+      width: 100%;
+      height: 100%;
+      max-height: 500px;
+      position: absolute;
+      padding-top: 25%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      hr {
+        margin-top: 0px;
+        border-color: yellow;
+      }
+      &:hover {
+        background-color: grey;
+        opacity: 1;
+      }
+    }
+  }
+  margin-bottom: 30px;
+}

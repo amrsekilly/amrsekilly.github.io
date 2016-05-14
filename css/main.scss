@@ -136,7 +136,7 @@ a:focus {
     }
 
     .navbar-custom a {
-        color: black;
+        color: white;
         font-weight: bold;
     }
 
@@ -154,33 +154,22 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: black;
-    // background: url(/img/bg.jpg) no-repeat bottom center scroll;
-    background-color: white;
-    // background-color: {{ site.color.primary-dark }};
+    color: white;
+    background: linear-gradient(to right, #296a44 0%, #4e8ed0 100%);
+    background-image:  linear-gradient(to right, #296a44 0%, #4e8ed0 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: url(/img/pattern.png);
-    // -webkit-animation-name: op;
-    // -moz-animation-name: op;
-    // -webkit-animation-duration: 0.0001s;
-    // -moz-animation-duration: 0.0001s;
-    // -webkit-animation-iteration-count: infinite;
-    // -moz-animation-iteration-count: infinite;
-    // -webkit-animation-timing-function: linear;
-    // -moz-animation-timing-function: linear;
-    opacity: 0.04;
-    background-repeat: repeat;
-    // display: none;
 }
 
 @-webkit-keyframes op {
@@ -244,10 +233,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 35px;
     font-size: 40px;
-    color: black;
+    color: white;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -257,7 +246,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: black;
+    color: white;
     background: rgba(255,255,255,.1);
 }
 

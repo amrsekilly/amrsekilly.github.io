@@ -419,8 +419,18 @@ img::-moz-selection {
   font-size: 1.2em;
 }
 
-.modal-body > ul {
-   list-style-type: none;
+.modal-body {
+  ul {
+      list-style-type: none;
+  }
+  a {
+    color: black;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+    &:hover {
+      color: blue;
+    }
+  }
 }
 
 // about section
@@ -487,7 +497,7 @@ hr {
   font-size: 1.5em;
 }
 
- 
+
 // style the skill logos
 .skill-logo {
   max-height: 100px;

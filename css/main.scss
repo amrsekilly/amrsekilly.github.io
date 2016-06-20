@@ -209,10 +209,6 @@ a:focus {
     font-size: 40px;
 }
 
-.intro .intro-body .intro-text {
-    font-size: 18px;
-}
-
 @media(min-width:767px) {
     .intro {
         height: 100%;
@@ -221,10 +217,6 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
-    }
-
-    .intro .intro-body .intro-text {
-        font-size: 25px;
     }
 }
 
@@ -482,6 +474,7 @@ img::-moz-selection {
 
 .leading-icon {
   padding-bottom: 20px;
+  max-width: 9vw;
 }
 
 
@@ -588,4 +581,12 @@ hr {
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
+}
+
+.job-title {
+  font-size: 3vw;
+}
+
+.intro-text {
+    font-size: 2.1vw;
 }

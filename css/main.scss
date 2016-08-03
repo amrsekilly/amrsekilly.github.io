@@ -584,7 +584,12 @@ hr {
 }
 
 .job-title {
-  font-size: 3vw;
+  // font-size: 3vw;
+  a {
+    &:hover {
+      color: cyan;
+    }
+  }
 }
 
 .intro-text {

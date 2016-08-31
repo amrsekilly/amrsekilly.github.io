@@ -9,7 +9,6 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: {{ site.color.primary-dark }};
     webkit-tap-highlight-color: rgba(255,255,255,.2);
@@ -27,8 +26,6 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    // text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -68,7 +65,6 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: {{ site.color.primary-dark }};
 }
 
@@ -172,34 +168,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-@-webkit-keyframes op {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0.1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@-moz-keyframes op {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0.1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -220,102 +188,8 @@ a:focus {
     }
 }
 
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid white;
-    border-radius: 35px;
-    font-size: 40px;
-    color: white;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: white;
-    background: rgba(255,255,255,.1);
-}
-
-.btn-circle i.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-}
-
-.btn-circle:hover i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-    -webkit-animation-iteration-count: 0;
-    -moz-animation-iteration-count: 0;
-}
-
-@-webkit-keyframes pulse {
-    0% {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-
-    50% {
-        -webkit-transform: translateY(5px);
-        transform: translateY(5px);
-    }
-
-    100% {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-    }
-}
-
-@-moz-keyframes pulse {
-  0% {
-      -webkit-transform: translateY(0px);
-      transform: translateY(0px);
-  }
-
-  50% {
-      -webkit-transform: translateY(5px);
-      transform: translateY(5px);
-  }
-
-  100% {
-      -webkit-transform: translateY(0px);
-      transform: translateY(0px);
-  }
-}
-
-.content-section {
-    padding-top: 70px;
-    hr {
-      margin-top: 70px;
-    }
-}
-
-
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 70px;
-        hr {
-          margin-top: 70px;
-        }
-    }
-}
-
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -362,23 +236,6 @@ ul.banner-social-buttons li {
     }
 }
 
-footer {
-  background-color: fade-in(white, 0.9);
-  color: black;
-  margin-top: 30px;
-  a {
-    color: black;
-    &:hover, &:active, &:focus {
-      color: #11505d;
-    }
-  }
-  p {
-      margin: 0;
-      padding: 0;
-  }
-}
-
-
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -397,62 +254,6 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-/*
-  style the modals
-*/
-.modal-dialog {
-  width: 85%;
-  margin-right: auto;
-  margin-left: auto;
-  color: black;
-  line-height: 2.5em;
-  font-size: 1.2em;
-}
-
-.modal-body {
-  ul {
-      list-style-type: none;
-  }
-  a {
-    color: black;
-    border-bottom: 1px solid #000;
-    padding-bottom: 3px;
-    &:hover {
-      color: blue;
-    }
-  }
-}
-
-// about section
-.about-text {
-  text-align: justify;
-  line-height: 40px;
-  a {
-    border-bottom: 1px solid #fff;
-    padding-bottom: 3px;
-  }
-  &:first-letter {
-    font-size: 250%;
-    font-weight: bold;
-    vertical-align: middle;
-    padding-bottom: 0px;
-  }
-}
-
-.contact-text {
-  text-align: justify;
-  a {
-    border-bottom: 1px solid #fff;
-    padding-bottom: 3px;
-  }
-}
-
-.modal-body > a {
-  color: black;
-  border-bottom: 1px solid #000;
-  padding-bottom: 3px;
 }
 
 .col-md-6 > li > a {
@@ -475,121 +276,6 @@ img::-moz-selection {
 .leading-icon {
   padding-bottom: 20px;
   max-width: 9vw;
-}
-
-
-hr {
-  width: 40%;
-  border: 2px solid;
-  border-color: fade-out(white, 0.8);
-}
-
-// style the media object in the hireme section
-.media-p {
-  margin-top: 30px;
-  font-size: 1.5em;
-}
-
-
-// style the skill logos
-.skill-logo {
-  max-height: 100px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.portfolio-row {
-  .portfolio-item {
-    .portfolio-item-image {
-      max-height: 500px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 50px;
-    }
-    .portfolio-item-text {
-      width: 100%;
-      height: 100%;
-      max-height: 500px;
-      position: absolute;
-      padding-top: 25%;
-      top: 0;
-      left: 0;
-      opacity: 0;
-      hr {
-        margin-top: 0px;
-        border-color: yellow;
-      }
-      &:hover {
-        background-color: grey;
-        opacity: 1;
-      }
-    }
-  }
-  margin-bottom: 30px;
-}
-
-
-
-
-#quote-carousel {
-    padding: 0 10px 30px 10px;
-    margin-top: 60px;
-}
-#quote-carousel .carousel-control {
-    background: none;
-    color: #CACACA;
-    font-size: 2.3em;
-    text-shadow: none;
-    margin-top: 30px;
-}
-#quote-carousel .carousel-indicators {
-    position: relative;
-    right: 50%;
-    top: auto;
-    bottom: 0px;
-    margin-top: 20px;
-    margin-right: -19px;
-}
-#quote-carousel .carousel-indicators li {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    opacity: 0.4;
-    overflow: hidden;
-    transition: all .4s ease-in;
-    vertical-align: middle;
-}
-#quote-carousel .carousel-indicators .active {
-    width: 128px;
-    height: 128px;
-    opacity: 1;
-    transition: all .2s;
-}
-.item blockquote {
-    border-left: none;
-    margin: 0;
-}
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}
-
-.job-title {
-  // font-size: 3vw;
-  a {
-    &:hover {
-      color: cyan;
-    }
-  }
 }
 
 .intro-text {

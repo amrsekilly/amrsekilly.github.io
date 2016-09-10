@@ -4,6 +4,7 @@ pages:
   script:
     - gem install jekyll
     - jekyll build -d public/
+    - cp ./public/.well-known/acme-challenge/Wt-pWvhtnxZGf3BF0doGJwZAkiEu6pzzMY8mAKe0LGw.html ./public/.well-known/acme-challenge/Wt-pWvhtnxZGf3BF0doGJwZAkiEu6pzzMY8mAKe0LGw
   artifacts:
     paths:
       - public

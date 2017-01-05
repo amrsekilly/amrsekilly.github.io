@@ -151,7 +151,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: linear-gradient(to right, #227DC4 -25%, #0e4369 125%);
+    background: linear-gradient(to right, {{ site.color.primary-blue }} -25%, {{ site.color.secondary-blue }} 125%);
     // background-image:  linear-gradient(to right, #227DC4 -25%, #0e4369 125%);
     background-position-x: initial;
     background-position-y: initial;
@@ -285,4 +285,76 @@ img::-moz-selection {
 #header-badge {
   font-size: 7em;
   margin-bottom: 15px;
+}
+
+#blogArea {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  .post-area {
+    margin-bottom: 5vh;
+
+    // text properties
+    .post-title {
+        margin: 0 0 35px;
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+    .post-date {
+      margin: 0 0 5px;
+      font-size: 12px;
+      color: darken(white, 15%);
+    }
+
+    .post-content {
+      background: linear-gradient(to right, darken({{ site.color.primary-blue }}, 4) -25%, darken({{ site.color.secondary-blue }}, 4) 125%);
+      padding-bottom: 1vh;
+      padding-top: 1vh;
+      padding-right: 1vw;
+      padding-left: 1vw;
+      .read-more-link {
+        color: darken(white, 15);
+      }
+    }
+
+    p {
+        margin: 0 0 25px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+  }
+}
+
+// post page style
+.post {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  text-align: left;
+
+  .post-date {
+    margin: 0 0 5px;
+    font-size: 12px;
+    color: darken(white, 15%);
+  }
+
+  .post-author {
+    margin: 0 0 5px;
+    font-size: 12px;
+    color: darken(white, 10%);
+  }
+
+  .post-info {
+    margin: 0 0 10px;
+  }
+
+  .post-title {
+      margin: 0 0 15px;
+      font-weight: 200;
+      letter-spacing: 1px;
+  }
 }

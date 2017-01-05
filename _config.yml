@@ -1,5 +1,5 @@
 # Site settings
-title: Amr Elsekilly | Front-end Web Developer at Webee
+title: Amr Elsekilly | Front-end Web Developer
 email: amr@webee.com.mt
 url: https://amrsekilly.com
 description: "Amr Mohamed Elsayed Elsekilly, Front-end web developer at Webee.com.mt"
@@ -9,10 +9,7 @@ color:
   primary-dark: '#000000'
   links: '#ffffff'
 
-# Footer settings
-footer: <a href="https://twitter.com/amrsekilly">Amr Sekilly</a>
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
   - title: envelope
     url: mailto:amr@webee.com.mt

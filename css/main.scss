@@ -283,8 +283,13 @@ img::-moz-selection {
 }
 
 #header-badge {
-  font-size: 7em;
+  font-size: 6.5vw;
   margin-bottom: 15px;
+}
+
+.job-title {
+  margin-top: 20px;
+  font-size: 3vw;
 }
 
 #blogArea {
@@ -357,4 +362,27 @@ img::-moz-selection {
       font-weight: 200;
       letter-spacing: 1px;
   }
+}
+
+// teyped text animation
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

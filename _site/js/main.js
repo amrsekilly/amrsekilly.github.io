@@ -12,4 +12,13 @@ $(document).ready(function() {
 
   $('[data-toggle="tooltip"]').tooltip();
 
+  // text animation
+  $(function(){
+      $(".skills").typed({
+        strings: ["Vanilla JS", "React", "Redux", "Immutable.js", "AngularJS 1.x"],
+        loop: 1,
+        typeSpeed: 60,
+      });
+  });
+
 });

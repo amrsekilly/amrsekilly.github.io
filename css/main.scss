@@ -390,9 +390,10 @@ img::-moz-selection {
 
 // portfolio section
 #workSection {
-  padding-top: 100px;
+  // border: 1px solid red;
+  margin-top: 100px;
   @media(max-width:767px) {
-    padding-top: 10px;
+    margin-top: 10px;
   }
 }
 .project-title {
@@ -404,6 +405,9 @@ img::-moz-selection {
   img {
     border-radius: 2px;
   }
+  .img-responsive {
+    margin: 0 auto;
+}
 }
 .project-meta {
   color: black;
@@ -436,4 +440,22 @@ img::-moz-selection {
 
 .project-links {
   margin-top: 15px;
+}
+
+.work-container {
+  // to make all the projects the same height
+    @media(min-width:1199px) {
+    display: flex;
+  }
+}
+
+
+.project-container {
+  color: black;
+  background: white;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+  // border-radius: 3px;
 }

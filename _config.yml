@@ -32,10 +32,18 @@ social:
     url: https://www.facebook.com/amrsekilly
     name: Facebook
 
+# Build settings
+# Sass
+sass:
+    style: compressed
+markdown: kramdown
+permalink: pretty
+
+
 # My Projects' details
 projects:
   - title: storageos
-    name: StorageOS
+    name: StorageOS App
     url: https://storageos.com/
     large-image: /resources/showcase/storageos.png
     small-image: /resources/showcase/storageos-sm.png
@@ -67,10 +75,59 @@ projects:
         name: Heroku
         url: https://www.heroku.com/
 
+  - title: discoverly
+    name: Discoverly App
+    url: http://discoverly.ca/
+    large-image: /resources/showcase/discoverly.png
+    small-image: /resources/showcase/discoverly-sm.png
+    image-alt: Discoverly mock image
+    date: 2016
+    country: CA
+    occupation: Freelance Front-end Web Developer at <a href="https://www.freelancer.com/u/amrsekilly.html">Freelancer.com</a>
+    about: I've converted the PSD to HTML5, then integrated that to an Angular 1.5 app I wrote for the given mock RESTful APIs. Another developer took over to integrate that to the production backend
+    tech:
+      - title: angular
+        name: Angular.js 1.5
+        url: https://angularjs.org/
+      - title: rest
+        name: RESTful APIs
+        url: https://en.wikipedia.org/wiki/Representational_state_transfer
+      - title: html
+        name: HTML5
+        url: https://www.w3.org/TR/html5/
+      - title: less
+        name: Less
+        url: http://lesscss.org/
+      - title: grunt
+        name: Grunt
+        url: http://gruntjs.com/
+      - title: git
+        name: Git
+        url: https://git-scm.com/
 
-# Build settings
-# Sass
-sass:
-    style: compressed
-markdown: kramdown
-permalink: pretty
+  - title: aquaphoton
+    name: Aquaphoton's Website
+    url: http://aquaphoton.net/
+    large-image: /resources/showcase/aquaphoton.png
+    small-image: /resources/showcase/aquaphoton-sm.png
+    image-alt: Aquaphoton's Website's mock image
+    date: 2015
+    country: EG
+    occupation: Freelance Front-end Web Developer
+    about: It was my first project. I've designed the website from scratch and converted it to HTML5
+    tech:
+      - title: handlebars
+        name: Handlebars.js
+        url: http://handlebarsjs.com/
+      - title: html
+        name: HTML5
+        url: https://www.w3.org/TR/html5/
+      - title: less
+        name: Less
+        url: http://lesscss.org/
+      - title: grunt
+        name: Grunt
+        url: http://gruntjs.com/
+      - title: git
+        name: Git
+        url: https://git-scm.com/

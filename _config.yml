@@ -32,6 +32,42 @@ social:
     url: https://www.facebook.com/amrsekilly
     name: Facebook
 
+# My Projects' details
+projects:
+  - title: storageos
+    name: StorageOS
+    url: https://storageos.com/
+    large-image: /resources/showcase/storageos.png
+    small-image: /resources/showcase/storageos-sm.png
+    image-alt: StorageOS mock image
+    date: 2016-2017
+    country: UK
+    occupation: Front-end Web Developer at <a href="http://webee.com.mt/">Webee</a>
+    about: I worked on the front-end of phase-2 of that app along with two other front-end developers at <a href="http://webee.com.mt/">Webee</a>
+    tech:
+      - title: react
+        name: React.js
+        url: https://facebook.github.io/react/
+      - title: redux
+        name: Redux
+        url: http://redux.js.org/
+      - title: imm
+        name: Immutable.js
+        url: https://facebook.github.io/immutable-js/
+      - title: sass
+        name: Sass
+        url: http://sass-lang.com/
+      - title: gulp
+        name: Gulp
+        url: http://gulpjs.com/
+      - title: git
+        name: Git
+        url: https://git-scm.com/
+      - title: heroku
+        name: Heroku
+        url: https://www.heroku.com/
+
+
 # Build settings
 # Sass
 sass:

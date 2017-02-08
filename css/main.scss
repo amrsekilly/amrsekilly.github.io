@@ -386,3 +386,48 @@ img::-moz-selection {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+
+// portfolio section
+.project-title {
+  h3 {
+      margin-bottom: 15px;
+  }
+}
+.project-image {
+  img {
+    border-radius: 2px;
+  }
+}
+.project-meta {
+  color: black;
+  margin-top: 5px;
+  p {
+    font-size: 1.1em;
+  }
+
+}
+.project-description {
+  text-align: left;
+  color: black;
+  margin-top: 10px;
+  a {
+    color: black;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  a:hover {
+    color: blue;
+  }
+  span {
+      font-size: 1.2em;
+  }
+  .project-tech, .project-note {
+    margin-top: 10px;
+  }
+}
+
+.project-links {
+  margin-top: 15px;
+}

@@ -5,7 +5,7 @@ permalink: /work/
 ---
 
 <!-- <a href="{{ post.url | prepend: site.baseurl }}" class="post-title">{{ post.title }}</a> -->
-<div class="row" id="workSection">
+<div class="row" id="workSection" >
   <!-- project container -->
   {% for project in site.projects %}
   <div class="col-xs-12 col-sm-6 col-lg-4 project-container">
@@ -35,7 +35,7 @@ permalink: /work/
           {{ project.about }}.
         </div>
         <div class="project-tech">
-          <span>Technology:</span>
+          <span>Technologies:</span>
           {% for technology in project.tech %}
             <a href="{{ technology.url }}" target="_blank">{{ technology.name }}</a>{% if forloop.last == true %}.{% else %},{% endif %}
           {% endfor %}

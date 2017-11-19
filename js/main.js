@@ -15,7 +15,7 @@ $(document).ready(function() {
   // text animation
   $(function(){
       $(".skills").typed({
-        strings: ["Vanilla JS", "React", "Redux", "Immutable.js", "AngularJS 1.x"],
+        strings: ["NodeJS", "React", "React Native", "Redux", "Immutable.js", "AngularJS 1.x"],
         loop: 1,
         typeSpeed: 60,
       });

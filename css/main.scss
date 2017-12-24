@@ -78,7 +78,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: white;
+    color: {{ site.color.primary-white }};
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -87,7 +87,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: white;
+    color: {{ site.color.primary-white }};
     font-weight: bold;
     text-align: center;
     // border-bottom: none;
@@ -118,7 +118,7 @@ a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
-        color: white;
+        color: {{ site.color.primary-white }};
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -128,19 +128,19 @@ a:focus {
         padding: 0;
         background-color: {{ site.color.primary-dark }};
         a {
-          color: white;
+          color: {{ site.color.primary-white }};
         }
     }
 
     .navbar-custom a {
-        color: white;
+        color: {{ site.color.primary-white }};
         font-weight: bold;
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid {{ site.color.primary-white }};
         a {
-          color: white;
+          color: {{ site.color.primary-white }};
         }
     }
 }
@@ -151,7 +151,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: white;
+    color: {{ site.color.primary-white }};
     background: linear-gradient(to right, {{ site.color.primary-blue }} -25%, {{ site.color.secondary-blue }} 125%);
     // background-image:  linear-gradient(to right, #227DC4 -25%, #0e4369 125%);
     background-position-x: initial;
@@ -312,7 +312,7 @@ img::-moz-selection {
     .post-date {
       margin: 0 0 5px;
       font-size: 12px;
-      color: darken(white, 15%);
+      color: darken({{ site.color.primary-white }}, 15%);
     }
 
     .post-content {
@@ -322,7 +322,7 @@ img::-moz-selection {
       padding-right: 1vw;
       padding-left: 1vw;
       .read-more-link {
-        color: darken(white, 15);
+        color: darken({{ site.color.primary-white }}, 15);
       }
     }
 
@@ -361,13 +361,13 @@ img::-moz-selection {
   .post-date {
     margin: 0 0 5px;
     font-size: 12px;
-    color: darken(white, 15%);
+    color: darken({{ site.color.primary-white }}, 15%);
   }
 
   .post-author {
     margin: 0 0 5px;
     font-size: 12px;
-    color: darken(white, 10%);
+    color: darken({{ site.color.primary-white }}, 10%);
   }
 
   .post-info {

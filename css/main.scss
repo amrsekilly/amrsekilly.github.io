@@ -68,7 +68,10 @@ a:focus {
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+    font-family: 'Sofia',
+    cursive;
+    font-size: 2.2em;
+    color: white;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -77,7 +80,7 @@ a:focus {
 
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
-    font-size: 16px;
+    // font-size: 16px;
     color: {{ site.color.primary-white }};
 }
 
@@ -87,7 +90,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: {{ site.color.primary-white }};
+    color: white;
     font-weight: bold;
     text-align: center;
     // border-bottom: none;
@@ -122,6 +125,10 @@ a:focus {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom .navbar-brand {
+        color: #494946;
     }
 
     .top-nav-collapse {

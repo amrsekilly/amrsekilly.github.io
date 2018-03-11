@@ -6,8 +6,9 @@ cache:
 pages:
   script:
     - yarn install
-    - ./node_modules/.bin/gatsby build --prefix-paths
-    - cp ./letsencrypt-setup.html ./public/.well-known/acme-challenge/tQwPC5RBr5LcOMkSM6y-nQe2D3PjSxAjtRd_F5SJ-Ok
+    - ./node_modules/.bin/gatsby build --prefix-paths 
+    - mkdir -p public/.well-known/acme-challenge/
+    - cp le/*  public/.well-known/acme-challenge/
   artifacts:
     paths:
     - public

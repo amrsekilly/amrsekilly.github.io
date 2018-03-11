@@ -1,12 +1,15 @@
+
+image: node:latest
+cache:
+  paths:
+  - node_modules/
 pages:
-  stage: deploy
-  image: ruby:2.3
   script:
-    - gem install jekyll
-    - jekyll build -d public/
+    - yarn install
+    - ./node_modules/.bin/gatsby build --prefix-paths
     - cp ./public/.well-known/acme-challenge/tQwPC5RBr5LcOMkSM6y-nQe2D3PjSxAjtRd_F5SJ-Ok.html ./public/.well-known/acme-challenge/tQwPC5RBr5LcOMkSM6y-nQe2D3PjSxAjtRd_F5SJ-Ok
   artifacts:
     paths:
-      - public
+    - public
   only:
-    - master
+  - master

@@ -7,11 +7,11 @@ pages:
   script:
     - yarn install
     - ./node_modules/.bin/gatsby build --prefix-paths 
-    - mkdir -p public/.well-known/acme-challenge/
   artifacts:
     paths:
     - public
   script: 
+    - mkdir -p public/.well-known/acme-challenge/
     - cp le/*  public/.well-known/acme-challenge/
   only:
   - master

@@ -20,17 +20,18 @@ class Template extends React.Component {
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
   }
 
-  componentWillMount () {
-    const host = "amrsekilly.com";
-    if ((host == window.location.host) && (window.location.protocol != 'https:')) {
-      window.location = window.location.toString().replace(/^http:/, "https:");
-    }
-  }
 
   componentDidMount () {
     this.timeoutId = setTimeout(() => {
         this.setState({loading: ''});
     }, 100);
+    // redirect all traffic to use https
+    if (window) {
+      const host = "amrsekilly.com";
+      if ((host == window.location.host) && (window.location.protocol != 'https:')) {
+        window.location = window.location.toString().replace(/^http:/, "https:");
+      }
+    }
   }
 
   componentWillUnmount () {

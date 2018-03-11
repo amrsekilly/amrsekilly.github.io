@@ -38,7 +38,6 @@ bin/published.js
 # Build Path of Test Fixtures
 test/**/public
 .gatsby-context.js
-public/
 .DS_Store
 node_modules/
 .cache/

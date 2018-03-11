@@ -7,7 +7,7 @@ pages:
   script:
     - yarn install
     - ./node_modules/.bin/gatsby build --prefix-paths
-    - cp ./public/.well-known/acme-challenge/tQwPC5RBr5LcOMkSM6y-nQe2D3PjSxAjtRd_F5SJ-Ok.html ./public/.well-known/acme-challenge/tQwPC5RBr5LcOMkSM6y-nQe2D3PjSxAjtRd_F5SJ-Ok
+    - cp ./letsencrypt-setup.html ./public/.well-known/acme-challenge/tQwPC5RBr5LcOMkSM6y-nQe2D3PjSxAjtRd_F5SJ-Ok
   artifacts:
     paths:
     - public

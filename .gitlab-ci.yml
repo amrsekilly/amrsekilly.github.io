@@ -11,8 +11,6 @@ pages:
     paths:
     - public
   script: 
-    - mkdir public/.well-known/
-    - mkdir public/.well-known/acme-challenge/
-    - cp le/*  public/.well-known/acme-challenge/
+    - mkdir public/.well-known/ && mkdir public/.well-known/acme-challenge/ && cp le/*  public/.well-known/acme-challenge/
   only:
   - master

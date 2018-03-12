@@ -1,6 +1,6 @@
 {
   "name": "amr-elsekilly-portfolio",
-  "description": "Amr Mohamed Elsayed Elsekilly, Full Stack Web Developer - React Native, React, NodeJS, Python, Firebase, MongoDB, Angular",
+  "description": "Amr Mohamed Elsayed Elsekilly, Full Stack Web Developer. I work with various JS technologies and tools such as React Native, React, NodeJS, Python, Firebase, MongoDB and Angular. I can help your business by developing your next App.",
   "version": "1.0.0",
   "author": "Amr Elsekilly",
   "dependencies": {
@@ -31,7 +31,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amrsekilly/my-portfolio"
+    "url": "gitlab.com/amrsekilly/amrsekilly.gitlab.io"
   },
   "scripts": {
     "dev": "gatsby develop",

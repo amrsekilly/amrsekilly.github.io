@@ -2,17 +2,17 @@ module.exports = {
   siteMetadata: {
     title: "Amr Elsekilly - Full Stack Web Developer",
     author: "Amr Elsekilly",
-    description: "Amr Mohamed Elsayed Elsekilly, Full Stack Web Developer - React Native, React, NodeJS, Python, Firebase, MongoDB, Angular"
+    description: "Amr Mohamed Elsayed Elsekilly, Full Stack Web Developer. I work with various JS technologies and tools such as React Native, React, NodeJS, Python, Firebase, MongoDB and Angular. I can help your business by developing your next App."
   },
   pathPrefix: '/',
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/posts`,
-        name: "posts",
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/src/posts`,
+    //     name: "posts",
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

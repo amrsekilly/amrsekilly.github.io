@@ -2,7 +2,7 @@
 
 ## Preview
 
-http://amrsekilly.com
+https://amrsekilly.com
 
 ## Installation
 

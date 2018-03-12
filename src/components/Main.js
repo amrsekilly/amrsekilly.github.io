@@ -37,7 +37,11 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">My Work</h2>
 
-          <p>In progress....</p>
+          <p>I'm still writing this section, and I'll publish it soon. <i className="fas fa-clock"></i></p>
+
+          <p>
+            If you want to check my latest work, you can view my <a href="https://www.upwork.com/freelancers/~014d7603bde62ae128">Upwork</a> portfolio.
+          </p>
 
           {close}
         </article>
@@ -46,7 +50,7 @@ class Main extends React.Component {
           <h2 className="major"><span className="fa fa-briefcase"></span> Experience</h2>
         
           
-          <p>Download my updated <a href="https://github.com/amrsekilly/my-resume/raw/master/amr-elsekilly-resume.pdf"> Résumé</a>.</p>
+          <p><i className="fas fa-download"></i> Download my updated <a href="https://github.com/amrsekilly/my-resume/raw/master/amr-elsekilly-resume.pdf"> Résumé</a>.</p>
 
           {close}
         </article>

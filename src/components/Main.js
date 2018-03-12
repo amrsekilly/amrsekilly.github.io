@@ -67,7 +67,7 @@ class Main extends React.Component {
                 type="text"
                 name="name" 
                 id="name" 
-                placeholder="e.g. Marc"
+                placeholder="YOUR NAME"
                 required
               />
             </div>
@@ -77,7 +77,7 @@ class Main extends React.Component {
                 type="email" 
                 name="_replyto"
                 id="email" 
-                placeholder="e.g. marc@gmail.com"
+                placeholder="YOUR EMAIL"
                 required
               />
             </div>
@@ -87,7 +87,7 @@ class Main extends React.Component {
                  name="message" 
                  id="message" 
                  rows="4"
-                 placeholder="How may I help you?"
+                 placeholder="YOUR MESSAGE"
                  required
               >
               </textarea>

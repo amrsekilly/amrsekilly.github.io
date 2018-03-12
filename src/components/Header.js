@@ -26,13 +26,13 @@ const Header = (props) => (
                         className="fab fa-python"
                         title="Python"
                     ></span>
+                    <span
+                        className="fas fa-database"
+                        title="MongoDB, MySQL, Firebase"
+                    ></span>
                     <span 
                         className="fab fa-git-square"
                         title="Git VCS"
-                    ></span>
-                    <span 
-                        className="fab fa-gulp"
-                        title="Gulp"
                     ></span>
                 </div>
             </div>

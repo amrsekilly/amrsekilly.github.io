@@ -64,15 +64,17 @@ class Main extends React.Component {
                 name="name" 
                 id="name" 
                 placeholder="e.g. Marc"
+                required
               />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
               <input 
-                type="text" 
+                type="email" 
                 name="_replyto"
                 id="email" 
                 placeholder="e.g. marc@gmail.com"
+                required
               />
             </div>
             <div className="field">
@@ -82,7 +84,9 @@ class Main extends React.Component {
                  id="message" 
                  rows="4"
                  placeholder="How may I help you?"
-                 ></textarea>
+                 required
+              >
+              </textarea>
             </div>
             <ul className="actions">
               <li><input type="submit" value="Send" className="special" /></li>

@@ -91,6 +91,7 @@ class Main extends React.Component {
                  required
               >
               </textarea>
+              <input type="hidden" name="_next" value="/" />
             </div>
             <ul className="actions">
               <li><input type="submit" value="Send" className="special" /></li>

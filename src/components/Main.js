@@ -100,6 +100,11 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
+              <a href="tel:+201153993369" className="icon fa-phone">
+              <span className="label">Phone</span>
+              </a>
+            </li>
+              <li>
               <a href="mailto:amr@amrsekilly.com" className="icon fa-envelope">
               <span className="label">Email</span>
               </a>

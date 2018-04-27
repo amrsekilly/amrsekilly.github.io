@@ -38,11 +38,9 @@ const Header = (props) => (
                 </div>
 
                 <div>
-                    <div>
-                        <a href='https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~014d7603bde62ae128&BYOC' className="button" target="_blank">
-                            Hire Me
-                        </a>
-                    </div>
+                    <a href='https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~014d7603bde62ae128&BYOC' className="button" target="_blank">
+                        Hire Me
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
@@ -34,6 +35,14 @@ const Header = (props) => (
                         className="fab fa-git-square"
                         title="Git VCS"
                     ></span>
+                </div>
+
+                <div>
+                    <div>
+                        <a href='https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~014d7603bde62ae128&BYOC' className="button" target="_blank">
+                            Hire Me
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

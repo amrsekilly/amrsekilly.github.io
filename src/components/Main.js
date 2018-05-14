@@ -7,20 +7,20 @@ class Main extends React.Component {
 
   constructor(props) {
     super(props);
-    this.escFunction = this.escFunction.bind(this);
+    // this.escFunction = this.escFunction.bind(this);
   }
   
-  escFunction(event) {
-    if (event.keyCode === 27) {
-      this.props.onCloseArticle();
-    }
-  }
-  componentDidMount() {
-    document.addEventListener("keydown", this.escFunction, false);
-  }
-  componentWillUnmount() {
-    document.removeEventListener("keydown", this.escFunction, false);
-  }
+  // escFunction(event) {
+  //   if (event.keyCode === 27) {
+  //     this.props.onCloseArticle();
+  //   }
+  // }
+  // componentDidMount() {
+  //   document.addEventListener("keydown", this.escFunction, false);
+  // }
+  // componentWillUnmount() {
+  //   document.removeEventListener("keydown", this.escFunction, false);
+  // }
 
   render() {
 

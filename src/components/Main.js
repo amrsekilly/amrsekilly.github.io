@@ -5,23 +5,6 @@ import profile from '../images/profile.jpg'
 
 class Main extends React.Component {
 
-  constructor(props) {
-    super(props);
-    // this.escFunction = this.escFunction.bind(this);
-  }
-  
-  // escFunction(event) {
-  //   if (event.keyCode === 27) {
-  //     this.props.onCloseArticle();
-  //   }
-  // }
-  // componentDidMount() {
-  //   document.addEventListener("keydown", this.escFunction, false);
-  // }
-  // componentWillUnmount() {
-  //   document.removeEventListener("keydown", this.escFunction, false);
-  // }
-
   render() {
 
     let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>

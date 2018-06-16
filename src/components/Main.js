@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 import profile from '../images/profile.jpg'
 
 class Main extends React.Component {
-
   render() {
 
     let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
@@ -13,14 +12,14 @@ class Main extends React.Component {
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About Me</h2>
+          <h2 className="major"><span className="fa fa-user-secret"></span> About Me</h2>
           
           <span className="image main"><img src={profile} alt="" /></span>
           
           <p>
             Hello,<br />
             <br />
-            I'm a full-stack web developer living in Egypt (EET-Zone). I have experience working with most of the Javascript frameworks and tools.<br />
+            I'm a software engineer living in the EET-Zone. I'm proficient with most of the Javascript frameworks and tools.<br />
             <br />
             I can help your business by developing a responsive website/web app, or a phone app that works on both iOS and Android.<br />
             <br />
@@ -28,13 +27,7 @@ class Main extends React.Component {
             I started programming in 2011, and I got into web development in late 2015, since then, I've been programming almost everyday. I've studied web development on Coursera (you can find the verified certificates in my resume), Udemy, and <a href="https://www.freecodecamp.org/amrsekilly">FreeCodeCamp</a>.<br />
             <br />
 
-            You can check my <a href="https://www.upwork.com/freelancers/~014d7603bde62ae128">Upwork</a> portfolio, and my <a href="https://www.freelancer.com/u/amrsekilly">Freelancer.com</a> for previous work samples. If you want to work with me, send me a message in the contact section. Or you can hire me on Upwork with a 0% processing fees forever, if you create a new Upwork account using this <a href='https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~014d7603bde62ae128&BYOC' target="_blank">link</a>.
-
-            <div style={{ textAlign: 'center', marginTop: '20px' }}>
-              <a href='https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~014d7603bde62ae128&BYOC' className="button" target="_blank">
-                Hire Me
-              </a>
-            </div>
+            Currently, I'm only accepting work by referrals. But in the past I've worked on <a href="https://www.upwork.com/freelancers/~014d7603bde62ae128">Upwork</a> and <a href="https://www.freelancer.com/u/amrsekilly">Freelancer.com</a>. If you want to work with me, send me a message in the contact section.
 
           </p>
 

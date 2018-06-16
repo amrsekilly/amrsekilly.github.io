@@ -19,16 +19,21 @@ class Main extends React.Component {
           <p>
             Hello,<br />
             <br />
-            I'm a software engineer living in the EET-Zone. I'm proficient with most of the Javascript frameworks and tools.<br />
+            I'm a full-stack web developer living in Egypt (EET Time-Zone). I have experience working with many Javascript frameworks and tools such as: React, React Native, Angular, and Node.js.<br />
             <br />
-            I can help your business by developing a responsive website/web app, or a phone app that works on both iOS and Android.<br />
-            <br />
-
-            I started programming in 2011, and I got into web development in late 2015, since then, I've been programming almost everyday. I've studied web development on Coursera (you can find the verified certificates in my resume), Udemy, and <a href="https://www.freecodecamp.org/amrsekilly">FreeCodeCamp</a>.<br />
+            I can help your business by building a responsive website/web app, or a mobile app that works on both iOS and Android.<br />
             <br />
 
-            Currently, I'm only accepting work by referrals. But in the past I've worked on <a href="https://www.upwork.com/freelancers/~014d7603bde62ae128">Upwork</a> and <a href="https://www.freelancer.com/u/amrsekilly">Freelancer.com</a>. If you want to work with me, send me a message in the contact section.
+            I started programming back in 2011, and I got into web development in late 2015. Since then, I've been programming almost everyday. <br />
+            <br />
 
+            Mainly, I've studied Electronics and Communication Engineering at <a href="https://en.wikipedia.org/wiki/Faculty_of_Engineering,_Alexandria_University">Alexandria University</a>, but I've also studied web development on Coursera (you can find the verified certificates in my resume), Udemy, and <a href="https://www.freecodecamp.org/amrsekilly">FreeCodeCamp</a>.<br />
+            <br />
+
+            You can check my <a href="https://www.upwork.com/freelancers/~014d7603bde62ae128">Upwork</a> portfolio, and my <a href="https://www.freelancer.com/u/amrsekilly">Freelancer.com</a> portfolio for my previous work, and my stellar clients' reviews.<br />
+            <br />
+            
+            If you want to work with me, send me a message in the contact section. Or you can hire me on Upwork with a 0% commission fees forever (if you create a new Upwork account using this <a href='https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~014d7603bde62ae128&BYOC' target="_blank">link</a>).
           </p>
 
           {close}

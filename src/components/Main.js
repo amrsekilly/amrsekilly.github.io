@@ -12,28 +12,20 @@ class Main extends React.Component {
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major"><span className="fa fa-user-secret"></span> About Me</h2>
+          <h2 className="major">About Me</h2>
           
           <span className="image main"><img src={profile} alt="" /></span>
           
           <p>
-            Hello,<br />
+            Hiii!<br />
             <br />
-            I'm a full-stack web developer living in Egypt (EET Time-Zone). I have experience working with many Javascript frameworks and tools such as: React, React Native, Angular, and Node.js.<br />
+            Right now I'm working as a Sr. Frontend Engineer at an awesome startup in Alexandria, Egypt called Rubikal.<br />
             <br />
-            I can help your business by building a responsive website/web app, or a mobile app that works on both iOS and Android.<br />
+            Our main client is a revolutionary Ed-Tech company in the US called InsideTrack. I'm working on the web experience for the students, coaches, and admins apps.<br />
             <br />
-
-            I started programming back in 2011, and I got into web development in late 2015. Since then, I've been programming almost everyday. <br />
+            My work involves working with: React, Redux, ImmutableJS, SWs, and much more cool tech!<br />
             <br />
-
-            Mainly, I've studied Electronics and Communication Engineering at <a href="https://en.wikipedia.org/wiki/Faculty_of_Engineering,_Alexandria_University">Alexandria University</a>, but I've also studied web development on Coursera (you can find the verified certificates in my resume), Udemy, and <a href="https://www.freecodecamp.org/amrsekilly">FreeCodeCamp</a>.<br />
-            <br />
-
-            You can check my <a href="https://www.upwork.com/freelancers/~014d7603bde62ae128">Upwork</a> portfolio, and my <a href="https://www.freelancer.com/u/amrsekilly">Freelancer.com</a> portfolio for my previous work, and my stellar clients' reviews.<br />
-            <br />
-            
-            If you want to work with me, send me a message in the contact section. Or you can hire me on Upwork with a 0% commission fees forever (if you create a new Upwork account using this <a href='https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~014d7603bde62ae128&BYOC' target="_blank">link</a>).
+            Follow me on <a href="https://www.instagram.com/amrsekilly/" target="_blank">IG</a> to know more about my journey! ❤️🎉
           </p>
 
           {close}
@@ -55,7 +47,7 @@ class Main extends React.Component {
           <h2 className="major"><span className="fa fa-briefcase"></span> Experience</h2>
         
           
-          <p><i className="fas fa-download"></i> Download my updated <a href="https://github.com/amrsekilly/my-resume/raw/master/amr-elsekilly-resume.pdf"> Résumé</a>.</p>
+          <p><i className="fas fa-download" style={{marginRight: 10}}></i><a href="https://github.com/amrsekilly/my-resume/raw/master/amr-elsekilly-resume.pdf">Download my Résumé</a>.</p>
 
           {close}
         </article>

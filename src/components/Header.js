@@ -4,12 +4,12 @@ import React from 'react'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="fab fa-free-code-camp"></span>
+            <span className="fas fa-laptop-code"></span>
         </div>
         <div className="content">
             <div className="inner">
                 <h1>Amr Elsekilly</h1>
-                <p>I will help you create the next App for your business.</p>
+                <p>Sr. Frontend Engineer at <a href="https://www.rubikal.com/" target="_blank">Rubikal</a></p>
                 <div className="technologies">
                     <span 
                         className="fab fa-node-js"
@@ -24,12 +24,12 @@ const Header = (props) => (
                         title="Angular.js"
                     ></span>
                     <span
-                        className="fab fa-python"
-                        title="Python"
+                        className="fab fa-phoenix-framework"
+                        title="Phoenix/Elixir"
                     ></span>
                     <span
                         className="fas fa-database"
-                        title="MongoDB, MySQL, Firebase"
+                        title="PostgreSQL, MongoDB, MySQL, Firebase"
                     ></span>
                     <span 
                         className="fab fa-git-square"
@@ -38,8 +38,11 @@ const Header = (props) => (
                 </div>
 
                 <div>
-                    <a href='https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~014d7603bde62ae128&BYOC' className="button hvr-ripple-out" target="_blank">
-                        Hire Me
+                    <a href='https://github.com/amrsekilly' className="button hvr-ripple-out" target="_blank">
+                    <span
+                        className="fab fa-github"
+                    ></span>
+                        Github
                     </a>
                 </div>
             </div>

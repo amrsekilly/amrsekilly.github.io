@@ -6,7 +6,6 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
-    'gatsby-plugin-offline',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

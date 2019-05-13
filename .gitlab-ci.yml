@@ -1,5 +1,5 @@
 
-image: node:8.11.3
+image: node:latest
 cache:
   paths:
   - node_modules/

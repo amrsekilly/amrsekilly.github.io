@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e4260],{326:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Amr Elsekilly | Sr. Frontend Engineer at Rubikal."}}},pathContext:{}}}});
-//# sourceMappingURL=path---index-cb62a64f169b33856158.js.map

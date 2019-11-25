@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: "Amr Elsekilly | Sr. Frontend Engineer at Rubikal.",
+    title: "Amr Elsekilly | Sr. Frontend Engineer at Pelcro.",
     author: "Amr Elsekilly",
-    description: "Amr Elsekilly | Sr. Frontend Engineer at Rubikal."
+    description: "Amr Elsekilly | Sr. Frontend Engineer at Pelcro."
   },
-  pathPrefix: '/',
+  pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -20,12 +20,12 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
-            },
+              maxWidth: 630
+            }
           },
-          "gatsby-remark-copy-linked-files",
-        ],
-      },
+          "gatsby-remark-copy-linked-files"
+        ]
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -40,8 +40,8 @@ module.exports = {
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true,
-      },
-    },
-  ],
-}
+        respectDNT: true
+      }
+    }
+  ]
+};

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import profile from "../images/profile.jpg";
+import profile from "../images/profile-picture-Rubikal500x500.png";
 
 class Main extends React.Component {
   render() {
@@ -36,20 +36,20 @@ class Main extends React.Component {
             Hello!
             <br />
             <br />
-            Experienced and Passionate Professional Senior Frontend Developer
-            with extensive experience in React, Redux, and AngularJS.
+            I'm an Experienced and Passionate Professional Senior Frontend
+            Developer with extensive experience in React, Redux, and AngularJS.
             <br />
-            <br /> Extensive Experience as a React.js Senior Developer
+            <br /> I have an Extensive Experience as a React.js Senior Developer
             methodically identifying and resolving complex underlying causes of
             React.js problems, using a variety of debugging techniques and
             tools. I have architected apps for multiple mid and small size
             businesses since 2015, as well as covering everything I write with
             unit tests.
             <br />
-            <br /> Expert Level ability with architecting Javascript
-            applications from the ground up. And refactoring existing legacy
-            code to transform it into a modern-looking maintainable code. I
-            pride myself on my ability to intuitively gather, interpret and
+            <br /> I also have an Expert Level ability with architecting
+            Javascript applications from the ground up. And refactoring existing
+            legacy code to transform it into a modern-looking maintainable code.
+            I pride myself on my ability to intuitively gather, interpret and
             understand your requirements, as well as develop intuitive and
             creative Frontend Solutions using my extensive experience in the
             field.

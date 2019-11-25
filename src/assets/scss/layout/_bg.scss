@@ -40,7 +40,7 @@
     @include vendor('transition', ('transform #{_duration(article)} ease-in-out',
         'filter #{_duration(article)} ease-in-out'
       ));
-    background-image: url('../../images/itk.jpg');
+    background-image: url('../../images/profile.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,30 +1,30 @@
-import React from 'react'
-import '../assets/scss/main.scss'
-import Helmet from 'react-helmet'
+import React from "react";
+import "../assets/scss/main.scss";
+import Helmet from "react-helmet";
 
-import Header from '../components/Header'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
+import Header from "../components/Header";
+import Main from "../components/Main";
+import Footer from "../components/Footer";
 
 class Template extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       isArticleVisible: false,
       timeout: false,
       articleTimeout: false,
-      article: '',
-      loading: 'is-loading'
-    }
-    this.handleOpenArticle = this.handleOpenArticle.bind(this)
-    this.handleCloseArticle = this.handleCloseArticle.bind(this)
+      article: "",
+      loading: "is-loading"
+    };
+    this.handleOpenArticle = this.handleOpenArticle.bind(this);
+    this.handleCloseArticle = this.handleCloseArticle.bind(this);
   }
 
-  componentDidMount () {
+  componentDidMount() {
     this.timeoutId = setTimeout(() => {
-        this.setState({loading: ''});
+      this.setState({ loading: "" });
     }, 100);
-    
+
     // // redirect all traffic to use https
     // if (window) {
     //   const host = "amrsekilly.com";
@@ -34,68 +34,75 @@ class Template extends React.Component {
     // }
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     if (this.timeoutId) {
-        clearTimeout(this.timeoutId);
+      clearTimeout(this.timeoutId);
     }
   }
 
   handleOpenArticle(article) {
-
     this.setState({
       isArticleVisible: !this.state.isArticleVisible,
       article
-    })
+    });
 
     setTimeout(() => {
       this.setState({
         timeout: !this.state.timeout
-      })
-    }, 325)
+      });
+    }, 325);
 
     setTimeout(() => {
       this.setState({
         articleTimeout: !this.state.articleTimeout
-      })
-    }, 350)
-
+      });
+    }, 350);
   }
 
   handleCloseArticle() {
-
     this.setState({
       articleTimeout: !this.state.articleTimeout
-    })
+    });
 
     setTimeout(() => {
       this.setState({
         timeout: !this.state.timeout
-      })
-    }, 325)
+      });
+    }, 325);
 
     setTimeout(() => {
       this.setState({
         isArticleVisible: !this.state.isArticleVisible,
-        article: ''
-      })
-    }, 350)
-
+        article: ""
+      });
+    }, 350);
   }
 
   render() {
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const siteDescription = this.props.data.site.siteMetadata.description
+    const siteTitle = this.props.data.site.siteMetadata.title;
+    const siteDescription = this.props.data.site.siteMetadata.description;
 
     return (
-      <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
+      <div
+        className={`body ${this.state.loading} ${
+          this.state.isArticleVisible ? "is-article-visible" : ""
+        }`}
+      >
         <Helmet>
-            <title>{siteTitle}</title>
-            <meta name="description" content={siteDescription} />
+          <title>{siteTitle}</title>
+          <meta name="description" content={siteDescription} />
+          <script
+            data-ad-client="ca-pub-6585622907418890"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
         </Helmet>
 
         <div id="wrapper">
-
-          <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
+          <Header
+            onOpenArticle={this.handleOpenArticle}
+            timeout={this.state.timeout}
+          />
           <Main
             isArticleVisible={this.state.isArticleVisible}
             timeout={this.state.timeout}
@@ -104,19 +111,18 @@ class Template extends React.Component {
             onCloseArticle={this.handleCloseArticle}
           />
           <Footer timeout={this.state.timeout} />
-
         </div>
         <div id="bg"></div>
       </div>
-    )
+    );
   }
 }
 
 Template.propTypes = {
-  route: React.PropTypes.object,
-}
+  route: React.PropTypes.object
+};
 
-export default Template
+export default Template;
 
 export const pageQuery = graphql`
   query PageQuery {
@@ -127,4 +133,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

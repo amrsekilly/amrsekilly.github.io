@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{104:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Amr Elsekilly | Sr. Frontend Engineer at Pelcro.",description:"Amr Elsekilly | Sr. Frontend Engineer at Pelcro."}}},layoutContext:{}}}});
-//# sourceMappingURL=path----0cc967ccf004869f1286.js.map

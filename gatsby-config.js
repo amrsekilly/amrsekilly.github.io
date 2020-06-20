@@ -1,47 +1,74 @@
 module.exports = {
   siteMetadata: {
-    title: "Amr Elsekilly | Sr. Frontend Engineer at Pelcro.",
-    author: "Amr Elsekilly",
-    description: "Amr Elsekilly | Sr. Frontend Engineer at Pelcro."
+    title: `Amr Elsekilly`,
+    name: `Amr Elsekilly`,
+    siteUrl: `https://amrsekilly.com`,
+    description: `Senior Frontend Engineer at Pelcro. 
+    I also make OSS contributions, write blog posts, 
+    and create videos on YouTube about frontend web development and remote work.`,
+    hero: {
+      heading: `I blog about frontend web development and remote work.`,
+      maxWidth: 1000,
+    },
+    social: [
+      {
+        name: `linkedin`,
+        url: `https://linkedin.com/in/amrsekilly`,
+      },
+      {
+        name: `youtube`,
+        url: `https://youtube.com/amrsekilly`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/amrsekilly`,
+      },
+      {
+        name: `twitter`,
+        url: `https://twitter.com/amrsekilly`,
+      },
+      {
+        name: `instagram`,
+        url: `https://instagram.com/amrsekilly`,
+      },
+    ],
   },
-  pathPrefix: "/",
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "@narative/gatsby-theme-novela",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        contentPosts: "content/posts",
+        contentAuthors: "content/authors",
+        basePath: "/",
+        authorsPage: true,
+        sources: {
+          local: true,
+          // contentful: true,
+        },
+      },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 630
-            }
-          },
-          "gatsby-remark-copy-linked-files"
-        ]
-      }
+        name: `Amr Elsekilly`,
+        short_name: `amrsekilly`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: `src/assets/favicon.png`,
+      },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {},
+    },
+    {
+      resolve: "gatsby-plugin-mailchimp",
       options: {
-        trackingId: "UA-77256409-1",
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true
-      }
-    }
-  ]
+        endpoint:
+          "https://amrsekilly.us10.list-manage.com/subscribe/post?u=9c5d18a0443adca15fe58cbcf&amp;id=520907d0ed", // add your MC list endpoint here; see plugin repo for instructions
+      },
+    },
+  ],
 };

@@ -1,48 +1,23 @@
 {
-  "name": "amr-elsekilly-portfolio",
-  "description": "Amr Mohamed Elsayed Elsekilly, Full Stack Web Developer. I work with various JS technologies and tools such as React Native, React, NodeJS, Python, Firebase, MongoDB and Angular. I can help your business by developing your next App.",
+  "private": true,
+  "name": "site",
   "version": "1.0.0",
-  "author": "Amr Elsekilly",
-  "dependencies": {
-    "gatsby": "^1.9.118",
-    "gatsby-image": "^1.0.27",
-    "gatsby-link": "^1.6.28",
-    "gatsby-plugin-google-analytics": "^1.0.22",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.14",
-    "gatsby-plugin-sharp": "^1.6.21",
-    "gatsby-remark-copy-linked-files": "^1.5.9",
-    "gatsby-remark-images": "^1.5.33",
-    "gatsby-source-filesystem": "^1.5.8",
-    "gatsby-transformer-remark": "^1.7.21",
-    "gatsby-transformer-sharp": "^1.6.14",
-    "lodash": "^4.17.4"
-  },
-  "homepage": "https://amrsekilly.com",
-  "keywords": [
-    "React Native",
-    "React",
-    "Angular.js",
-    "Node.js",
-    "freelancer",
-    "Python"
-  ],
   "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "gitlab.com/amrsekilly/amrsekilly.gitlab.io"
-  },
   "scripts": {
-    "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && cp CNAME public && gh-pages -d public -b master",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "start": "gatsby develop",
+    "prod": "gatsby build && cp CNAME public && cp robots.txt public && cp RefundPolicy.html public",
+    "clean": "gatsby clean",
+    "proxy": "netlify-cms-proxy-server"
   },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
+  "dependencies": {
+    "@narative/gatsby-theme-novela": "^0.*",
+    "gatsby": "^2.13.41",
+    "gatsby-plugin-mailchimp": "^5.2.2",
+    "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-netlify-cms": "^4.1.40",
+    "netlify-cms-app": "^2.11.23",
+    "netlify-cms-proxy-server": "^1.1.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }

@@ -65,11 +65,11 @@ const SharePageButton: React.FC<{}> = () => {
     }, 1000);
   }
 
-  const pathName = location.pathname;
+  // const pathName = location.pathname;
 
-  if (pathName.length <= 1) {
-    return null;
-  }
+  // if (pathName.length <= 1) {
+  //   return null;
+  // }
 
   return (
     <IconWrapper

@@ -3,7 +3,7 @@ title: What's this blog gonna be about?
 author: Amr Elsekilly
 date: 2020-06-20
 hero: ./images/Zamalek.JPG
-excerpt: I started that by creating my Youtube channelf, and getting envolved with the tech community in Egypt and the middle-east by providing mentorship, and contributing to the community on social media, events, etc.
+excerpt: I started that by creating my YouTube channel, and getting involved with the tech community in Egypt and the middle-east by providing mentorship, and contributing to the community on social media, events, etc.
 ---
 
 # Welcome everyone to my first post!
@@ -18,12 +18,12 @@ I've been working as a frontend web developer for over 5 years now. However, I'v
   />
 </div>
 
-I started that by creating my [Youtube channel](https://youtube.com/amrsekilly), and getting envolved with the tech community in Egypt and the middle-east by providing mentorship, and contributing to the community on social media, events, etc.
+I started that by creating my [YouTube channel](https://youtube.com/amrsekilly), and getting involved with the tech community in Egypt and the middle-east by providing mentorship, and contributing to the community on social media, events, etc.
 
 > So, I'm planning to continue doing that in this blog. By sharing technical content, and also sharing more about my remote work lifestyle.
 
 
-# A little about myself 
+# A little about myself
 
 I'm originally from Alexandria Egypt
 
@@ -52,7 +52,7 @@ Given the COVID-19 situation, I can't travel abroad. However, I'm taking this ti
   />
 </div>
 
-Right now I'm staying in Dokki, overlooking my beloved island or Al Gazira, and Zamalek neighbourhood.
+Right now I'm staying in Dokki, overlooking my beloved island or Al Gezira, and Zamalek neighbourhood.
 
 <div className="Image__Medium">
   <img

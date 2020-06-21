@@ -84,19 +84,19 @@ module.exports = {
         icon: "src/assets/favicon.png",
         icons: [
           {
-            src: "src/assets/favicon.png",
+            src: "src/images/favicon.png",
             purpose: "maskable",
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: "src/assets/favicon.png",
+            src: "src/images/favicon.png",
             purpose: "maskable",
             sizes: `196x196`,
             type: `image/png`,
           },
           {
-            src: "src/assets/favicon.png",
+            src: "src/images/favicon.png",
             sizes: `512x512`,
             type: `image/png`,
             purpose: "maskable",

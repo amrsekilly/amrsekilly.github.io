@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "prod": "mkdir public && mkdir public/src && mkdir public/src/images && gatsby build && cp CNAME public && cp robots.txt public && cp RefundPolicy.html public",
+    "prod": " gatsby build && cp CNAME public && cp robots.txt public && cp RefundPolicy.html public",
     "clean": "gatsby clean",
     "proxy": "netlify-cms-proxy-server",
-    "deploy": "rm -rf public && yarn prod && gh-pages -d public -b master"
+    "deploy": "rm -rf public .cache && mkdir public && mkdir public/src && mkdir public/src/images && yarn prod && gh-pages -d public -b master"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",

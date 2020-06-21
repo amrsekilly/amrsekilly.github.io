@@ -65,7 +65,9 @@ const SharePageButton: React.FC<{}> = () => {
     }, 1000);
   }
 
-  if (typeof window !== "undefined" && window.location.pathname.length <= 1) {
+  const pathName = location.pathname;
+
+  if (pathName.length <= 1) {
     return null;
   }
 

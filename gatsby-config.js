@@ -49,18 +49,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Amr Elsekilly`,
-        short_name: `amrsekilly`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#fff`,
-        display: `standalone`,
-        icon: `src/assets/favicon.png`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {},
     },
@@ -82,7 +70,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "src/assets/favicon.png",
+        icon: "src/assets/favicon.svg",
         icons: [
           {
             src: "src/images/favicon.png",

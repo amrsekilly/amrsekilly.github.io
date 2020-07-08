@@ -1,32 +1,15 @@
-import React from "react";
-import { useColorMode } from "theme-ui";
-
-/**
- * Paste in your SVG logo and return it from this component.
- * Make sure you have a height set for your logo.
- * It is recommended to keep the height within 25-35px.
- */
-export default function Logo() {
-  const [colorMode, setColorMode] = useColorMode();
-  const isDark = colorMode === `dark`;
-  return (
-    <svg
-      height="35px"
-      version="1.0"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 610.000000 468.000000"
-      preserveAspectRatio="xMidYMid meet"
-    >
-      <metadata>
-        Created by potrace 1.16, written by Peter Selinger 2001-2019
-      </metadata>
-      <g
-        transform="translate(0.000000,468.000000) scale(0.100000,-0.100000)"
-        fill={isDark ? "#9e0e17" : "#CF1F2C"}
-        stroke="none"
-      >
-        <path
-          d="M1556 4548 c-32 -73 -75 -171 -96 -218 -32 -72 -107 -245 -192 -440
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="610.000000pt" height="468.000000pt" viewBox="0 0 610.000000 468.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata>
+<g transform="translate(0.000000,468.000000) scale(0.100000,-0.100000)"
+fill="#CF1F2C" stroke="none">
+<path d="M1556 4548 c-32 -73 -75 -171 -96 -218 -32 -72 -107 -245 -192 -440
 -50 -115 -79 -182 -116 -265 -22 -49 -57 -128 -77 -175 -20 -47 -43 -99 -51
 -117 -19 -42 -118 -268 -159 -363 -18 -41 -37 -86 -43 -100 -6 -14 -54 -124
 -107 -245 -53 -121 -112 -256 -131 -300 -20 -44 -46 -105 -59 -135 -13 -30
@@ -55,18 +38,12 @@ l7 -23 1275 0 1274 0 0 365 0 365 -995 0 c-730 0 -995 3 -995 11 0 6 -15 46
 -106 241 -160 365 -28 66 -68 156 -87 200 -78 177 -103 233 -133 305 -18 41
 -40 93 -50 115 -20 45 -73 165 -132 300 -21 50 -50 115 -63 145 -13 30 -42 96
 -63 145 -35 78 -84 192 -177 405 -13 30 -44 100 -68 155 -24 55 -58 134 -76
-175 -18 41 -52 118 -75 170 l-42 95 -390 3 -391 2 -57 -132z"
-        />
-        <path
-          d="M2970 4670 c0 -6 14 -41 31 -78 17 -37 51 -114 76 -172 25 -58 53
+175 -18 41 -52 118 -75 170 l-42 95 -390 3 -391 2 -57 -132z"/>
+<path d="M2970 4670 c0 -6 14 -41 31 -78 17 -37 51 -114 76 -172 25 -58 53
 -123 63 -145 9 -22 34 -78 54 -125 20 -47 49 -111 63 -142 l27 -58 1408 0
-1408 0 0 365 0 365 -1565 0 c-1059 0 -1565 -3 -1565 -10z"
-        />
-        <path
-          d="M3835 2688 c6 -21 37 -92 115 -268 16 -36 46 -103 66 -150 57 -132
-60 -140 98 -222 l35 -78 975 0 976 0 0 370 0 370 -1136 0 -1135 0 6 -22z"
-        />
-      </g>
-    </svg>
-  );
-}
+1408 0 0 365 0 365 -1565 0 c-1059 0 -1565 -3 -1565 -10z"/>
+<path d="M3835 2688 c6 -21 37 -92 115 -268 16 -36 46 -103 66 -150 57 -132
+60 -140 98 -222 l35 -78 975 0 976 0 0 370 0 370 -1136 0 -1135 0 6 -22z"/>
+</g>
+</svg>
+

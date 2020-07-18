@@ -22,8 +22,9 @@ jobs:
         with:
           node-version: 10
       - run: |
-          npm install
-          npm run deploy
+          rm -rf public .cache && rm -rf node_modules && rm package-lock.json && mkdir public && mkdir public/src && mkdir public/src/images
+          npm i
+          npm run prod
 
       - uses: JamesIves/github-pages-deploy-action@3.5.7
         with:

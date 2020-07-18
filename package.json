@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "prod": " gatsby build && cp CNAME public && cp robots.txt public && cp RefundPolicy.html public",
+    "prod": "yarn gatsby build && cp CNAME public && cp robots.txt public && cp RefundPolicy.html public",
     "clean": "gatsby clean",
     "proxy": "netlify-cms-proxy-server",
     "deploy": "rm -rf public .cache && rm -rf node_modules && rm package-lock.json && mkdir public && mkdir public/src && mkdir public/src/images && yarn prod"

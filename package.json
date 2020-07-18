@@ -11,7 +11,7 @@
     "deploy": "rm -rf public .cache && rm -rf node_modules && rm package-lock.json && mkdir public && mkdir public/src && mkdir public/src/images && yarn prod"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "^0.*",
+    "@narative/gatsby-theme-novela": "0.16.5",
     "gatsby": "^2.13.41",
     "gatsby-plugin-google-analytics": "^2.3.4",
     "gatsby-plugin-mailchimp": "^5.2.2",

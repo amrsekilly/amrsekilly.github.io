@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 10
       - run: |
-          rm -rf public .cache && rm -rf node_modules && rm package-lock.json && mkdir public && mkdir public/src && mkdir public/src/images
+          rm -rf public .cache && rm -rf node_modules && mkdir public && mkdir public/src && mkdir public/src/images
           npm i
           npm run prod
 

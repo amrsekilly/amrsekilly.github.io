@@ -3,11 +3,11 @@ module.exports = {
     title: `Amr Elsekilly`,
     name: `Amr Elsekilly`,
     siteUrl: `https://amrsekilly.com`,
-    description: `Tech Lead at Airalo. 
-    I also make OSS contributions, write blog posts, 
+    description: `Tech Lead at Airalo.
+    I also make OSS contributions, write blog posts,
     and create videos on YouTube about frontend web development and remote work.`,
     hero: {
-      heading: `I blog about frontend web development and remote work.`,
+      heading: `I blog about frontend web development and remote work`,
       maxWidth: 1000,
     },
     social: [
@@ -119,7 +119,7 @@ module.exports = {
         // Set Variation ID. 0 for original 1,2,3....
         // variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
         // Defers execution of google analytics script after page load
-        defer: false,
+        defer: true,
         // Any additional optional fields
         // sampleRate: 5,
         // siteSpeedSampleRate: 10,

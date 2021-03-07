@@ -35,6 +35,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-offline',
+    'gatsby-plugin-sitemap',
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {

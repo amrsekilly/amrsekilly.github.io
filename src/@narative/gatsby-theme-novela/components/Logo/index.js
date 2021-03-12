@@ -1,11 +1,6 @@
 import React from "react";
 import { useColorMode } from "theme-ui";
 
-/**
- * Paste in your SVG logo and return it from this component.
- * Make sure you have a height set for your logo.
- * It is recommended to keep the height within 25-35px.
- */
 export default function Logo() {
   const [colorMode, setColorMode] = useColorMode();
   const isDark = colorMode === `dark`;

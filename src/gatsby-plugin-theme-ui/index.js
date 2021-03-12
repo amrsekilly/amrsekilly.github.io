@@ -1,6 +1,9 @@
 import novelaTheme from "@narative/gatsby-theme-novela/src/gatsby-plugin-theme-ui";
-import LogRocket from 'logrocket';
-LogRocket.init('znnvni/amr-elsekillys-blog');
+import LogRocket from "logrocket";
+
+if (process.env.NODE_ENV !== "development") {
+  LogRocket.init("znnvni/amr-elsekillys-blog");
+}
 
 export default {
   ...novelaTheme,

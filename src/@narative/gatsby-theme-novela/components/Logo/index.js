@@ -9,6 +9,11 @@ import { useColorMode } from "theme-ui";
 export default function Logo() {
   const [colorMode, setColorMode] = useColorMode();
   const isDark = colorMode === `dark`;
+  const selectedMode = localStorage.getItem("theme-ui-color-mode");
+  if (!selectedMode) {
+    setColorMode("dark");
+  }
+
   return (
     <svg
       height="35px"

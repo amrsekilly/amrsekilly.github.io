@@ -3,7 +3,7 @@ module.exports = {
     title: `Amr Elsekilly`,
     name: `Amr Elsekilly`,
     siteUrl: `https://amrsekilly.com`,
-    description: `Tech Lead at Airalo.
+    description: `Frontend Engineering Lead at Airalo.
     I also make OSS contributions, write blog posts,
     and create videos on YouTube about frontend web development and remote work.`,
     hero: {

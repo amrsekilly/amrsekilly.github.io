@@ -5,7 +5,7 @@ export default function Logo() {
   const [colorMode, setColorMode] = useColorMode();
   const isDark = colorMode === `dark`;
 
-  if (window) {
+  if (typeof window !== "undefined" && window.localStorage) {
     const selectedMode = window.localStorage.getItem("theme-ui-color-mode");
     if (!selectedMode) {
       setColorMode("dark");

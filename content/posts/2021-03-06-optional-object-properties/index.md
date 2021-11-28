@@ -6,7 +6,7 @@ hero: ./images/js.jpeg
 excerpt: Did you ever need to type a condition to add a new key to your JS object? This article has an ES6 shortcut for you!
 ---
 
-# Introcution
+# Introduction
 
 Sometimes you're creating a javascript object to send in a network requset for example and you want to add a property if a specific condition is met. In the past we had to use conditions to do that, but ES6 gave us a shortcut to do that using the spread operator. That's what we'll see in the next sections.
 

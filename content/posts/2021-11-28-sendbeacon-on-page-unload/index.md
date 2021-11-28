@@ -46,7 +46,7 @@ Given the limitations of using `XMLHttpRequest` in the mentioned case, browsers 
 
 # The Navigator.sendBeacon() Method
 
-This method allows you to send a small amount of data asynchronously to an RESTful API over HTTP.
+This method allows you to send a small amount of data asynchronously to a RESTful API over HTTP.
 
 The interface for this method looks like this
 

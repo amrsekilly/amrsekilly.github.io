@@ -3,7 +3,7 @@ module.exports = {
     title: `Amr Elsekilly`,
     name: `Amr Elsekilly`,
     siteUrl: `https://amrsekilly.com`,
-    description: `Frontend Engineering Lead at Airalo.
+    description: `Frontend Engineering Lead at Blink22.
     I also make OSS contributions, write blog posts,
     and create videos on YouTube about frontend web development and remote work.`,
     hero: {
@@ -34,8 +34,8 @@ module.exports = {
     ],
   },
   plugins: [
-    'gatsby-plugin-offline',
-    'gatsby-plugin-sitemap',
+    "gatsby-plugin-offline",
+    "gatsby-plugin-sitemap",
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {

@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
+    "build": "gatsby build",
     "prod": "NODE_ENV=production yarn gatsby build && cp CNAME public && cp robots.txt public && cp RefundPolicy.html public",
     "clean": "gatsby clean",
     "proxy": "netlify-cms-proxy-server",

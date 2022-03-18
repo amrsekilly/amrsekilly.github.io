@@ -31,13 +31,13 @@ I use the [34" Curved Gaming Monitor with Quantum dot technology](https://www.sa
 
 # My Chair 
 
-![JÄRVFJÄLLET Ikea Chair](images/chair.avif)
+![JÄRVFJÄLLET Ikea Chair](images/chair.jpg)
 
 I use the [JÄRVFJÄLLET IKEA Chair](https://www.ikea.com/eg/en/p/jaervfjaellet-office-chair-with-armrests-80510639/#content). In the past, I used to get back pain because of my old setup, after upgrading to this chair it helped me eliminate that pain, and now I'm able to work for longer hours without feeling any back pain. It's very ergonomic and comfortable, and I highly recommend getting it.
 
 # My Standing Desk
 
-![BEKANT Standing Desk](images/desk.avif)
+![BEKANT Standing Desk](images/desk.jpg)
 
 I use the [BEKANT IKEA standing desk](https://www.ikea.com/eg/en/p/bekant-desk-sit-stand-white-black-s29022539/#content). Sometimes, working while standing helps me become more productive, but I realized that I don't use the standing mode that much. The big benifit of having a standing desk is that I can adjust it to the appropriate height while working, and that's something I didn't have in the past with normal desks.
 

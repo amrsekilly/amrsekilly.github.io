@@ -47,7 +47,7 @@ const Subscription: React.FC<{}> = () => {
           </Heading>
           <Text>
             Be the first to receive my latest content with the ability to
-            opt-out at anytime. i promise to not spam your inbox or share your
+            opt-out at anytime. I promise not to spam your inbox or share your
             email with any third parties.
           </Text>
           <Form onSubmit={handleSubmit} hasError={error}>
@@ -136,7 +136,7 @@ const Form = styled.form<{ hasError: string }>`
     left: 21px;
     top: 10px;
     color: ${(p) =>
-      p.hasError ? p.theme.colors.error : p.theme.colors.accent};
+    p.hasError ? p.theme.colors.error : p.theme.colors.accent};
     ${mediaqueries.tablet`
     left: 34px;
     top: 11px;
@@ -193,7 +193,7 @@ const Button = styled.button<{ hasError: string; subscribed: boolean }>`
     background 0.2s var(--ease-in-out-quad), color 0.2s var(--ease-in-out-quad);
   &:hover {
     background: ${(p) =>
-      p.hasError ? p.theme.colors.error : p.theme.colors.accent};
+    p.hasError ? p.theme.colors.error : p.theme.colors.accent};
     color: ${(p) => p.theme.colors.background};
   }
   &[disabled] {
